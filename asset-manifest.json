@@ -6,8 +6,8 @@
     "static/js/1.cceabad0.chunk.js.map": "/VDS/static/js/1.cceabad0.chunk.js.map",
     "static/js/2.ec9003a5.chunk.js": "/VDS/static/js/2.ec9003a5.chunk.js",
     "static/js/2.ec9003a5.chunk.js.map": "/VDS/static/js/2.ec9003a5.chunk.js.map",
-    "main.js": "/VDS/static/js/main.720f5bc6.chunk.js",
-    "main.js.map": "/VDS/static/js/main.720f5bc6.chunk.js.map",
+    "main.js": "/VDS/static/js/main.83d16eb9.chunk.js",
+    "main.js.map": "/VDS/static/js/main.83d16eb9.chunk.js.map",
     "runtime-main.js": "/VDS/static/js/runtime-main.0cb59205.js",
     "runtime-main.js.map": "/VDS/static/js/runtime-main.0cb59205.js.map",
     "static/css/5.2d6a7860.chunk.css": "/VDS/static/css/5.2d6a7860.chunk.css",
@@ -20,7 +20,7 @@
     "static/js/8.72bf93d4.chunk.js": "/VDS/static/js/8.72bf93d4.chunk.js",
     "static/js/8.72bf93d4.chunk.js.map": "/VDS/static/js/8.72bf93d4.chunk.js.map",
     "index.html": "/VDS/index.html",
-    "precache-manifest.26fe3d7b29d9fe8d17044fa74d113c5a.js": "/VDS/precache-manifest.26fe3d7b29d9fe8d17044fa74d113c5a.js",
+    "precache-manifest.cae8ae578a8fdd5281386e53ae91604d.js": "/VDS/precache-manifest.cae8ae578a8fdd5281386e53ae91604d.js",
     "service-worker.js": "/VDS/service-worker.js",
     "static/css/5.2d6a7860.chunk.css.map": "/VDS/static/css/5.2d6a7860.chunk.css.map",
     "static/js/0.bcac7e0f.chunk.js.LICENSE.txt": "/VDS/static/js/0.bcac7e0f.chunk.js.LICENSE.txt",
@@ -63,6 +63,6 @@
     "static/js/runtime-main.0cb59205.js",
     "static/css/5.2d6a7860.chunk.css",
     "static/js/5.ce6b0fb3.chunk.js",
-    "static/js/main.720f5bc6.chunk.js"
+    "static/js/main.83d16eb9.chunk.js"
   ]
 }
