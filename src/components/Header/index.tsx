@@ -326,12 +326,7 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/farm'}>
-            {t('miningPool')}
-          </StyledNavLink>
-          <StyledNavLink id={`stake-nav-link`} to={'/hive'}>
-            {t('hive')}
-          </StyledNavLink>
+ 
           <StyledExternalLink id={`stake-nav-link`} href={'https://info.wanswap.finance'}>
             {t('statistics')} <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
