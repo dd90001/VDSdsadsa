@@ -1,9 +1,9 @@
 import { ChainId, JSBI, Percent, Token, WETH } from '@wanswap/sdk'
 import { AbstractConnector } from '@web3-react-wan/abstract-connector'
+import { injected, wanwallet, metamask, walletconnect} from '../connectors'
 
-import { injected, wanwallet, metamask, walletconnect } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xeA300406FE2eED9CD2bF5c47D01BECa8Ad294Ec1'
+export const ROUTER_ADDRESS = '0x57884d4f424befc79cc964cc2f4ad0e2e6a8387a'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 

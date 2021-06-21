@@ -207,7 +207,7 @@ export default function PoolCard({ stakingInfo, hide }: { stakingInfo: StakingIn
             <TYPE.white><DepositTitle>{t('totalDeposited')}</DepositTitle></TYPE.white>
             <TYPE.white>
               {valueOfTotalStakedAmountInUSDC
-                ? `$${valueOfTotalStakedAmountInUSDC.toFixed(0, { groupSeparator: ',' })} 🔥 APY: ${apy}%`
+                ? `$${valueOfTotalStakedAmountInUSDC.toFixed(0, { groupSeparator: ',' })} 馃敟 APY: ${apy}%`
                 //  +
                 //   ' / ' +
                 //   `${valueOfTotalStakedAmountInWLSP?.toSignificant(6, { groupSeparator: ',' }) ?? '-'} WSLP`
@@ -236,8 +236,7 @@ export default function PoolCard({ stakingInfo, hide }: { stakingInfo: StakingIn
   
               <TYPE.black style={{ textAlign: 'right' }} color={'white'} fontWeight={500}>
                 <span  id="animate-zoom" role="img" aria-label="wizard-icon" style={{ marginRight: '0.5rem' }}>
-                ⚡
-                </span>
+                鈿�                </span>
                 {`${stakingInfo.rewardRate
                   ?.multiply(`${60 * 60 * 24 * 7}`)
                   ?.toFixed(0, { groupSeparator: ',' })} WASP / week`}
