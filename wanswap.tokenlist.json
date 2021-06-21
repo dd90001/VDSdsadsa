@@ -4,12 +4,12 @@
   "keywords": ["defi", "wanswap", "yield"],
   "timestamp": "2021-03-12T03:40:34.305Z",
   "tokens": [
-    {
+   {
       "chainId": 888,
       "address": "0x8b9f9f4aa70b1b0d586be8adfb19c1ac38e05e9a",
-      "name": "FV",
-      "symbol": "FV",
-      "decimals": 8,
+      "name": "WASP",
+      "symbol": "WASP",
+      "decimals": 18,
       "logoURI": "https://icons.wanswap.finance/icon/wanswap/WASP.png"
     },
     {
