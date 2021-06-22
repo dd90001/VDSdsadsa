@@ -2,7 +2,7 @@ import { Web3Provider } from '@ethersproject/providers'
 import { InjectedConnector } from '@web3-react-wan/injected-connector'
 import { InjectedConnector as MetaMaskConnector } from '@web3-react/injected-connector'
 
-import { WalletConnectConnector } from '@web3-react-wan/walletconnect-connector'
+import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 import { WanWalletConnector } from '@web3-react-wan/wanwallet-connector'
 import { WalletLinkConnector } from '@web3-react/walletlink-connector'
 import { PortisConnector } from '@web3-react/portis-connector'
@@ -42,9 +42,9 @@ export const walletconnect = new WalletConnectConnector({
   rpc: { 
     888: NETWORK_URL,
   },
-  // bridge: 'https://bridge.walletconnect.org',
-  // qrcode: true,
-  // pollingInterval: 15000
+   bridge: 'https://bridge.walletconnect.org',
+   qrcode: true,
+   pollingInterval: 15000
 })
 
 // mainnet only
