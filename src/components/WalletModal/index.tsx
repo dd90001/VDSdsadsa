@@ -211,7 +211,7 @@ export default function WalletModal({
       // check for mobile options
       if (isMobile) {
         //disable portis on mobile for now
-
+ 
         if (!window.wanWeb3 && !window.wanchain && option.mobile) {
           return (
             <Option

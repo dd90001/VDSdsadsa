@@ -133,6 +133,15 @@ const SUPPORTED_WALLETS_CHROME: { [key: string]: WalletInfo } = {
     color: '#E8831D',
     mobile: true
   },
+   FORTMATIC: {
+    connector: fortmatic,
+    name: 'Fortmatic',
+    iconName: 'fortmaticIcon.png',
+    description: 'Login using Fortmatic hosted wallet',
+    href: null,
+    color: '#6748FF',
+    mobile: true
+  },
   WALLET_CONNECT: {
     connector: walletconnect,
     name: 'WalletConnect',
@@ -144,6 +153,15 @@ const SUPPORTED_WALLETS_CHROME: { [key: string]: WalletInfo } = {
 }
 
 const SUPPORTED_WALLETS_IN_WALLET: { [key: string]: WalletInfo } = {
+     FORTMATIC: {
+    connector: fortmatic,
+    name: 'Fortmatic',
+    iconName: 'fortmaticIcon.png',
+    description: 'Login using Fortmatic hosted wallet',
+    href: null,
+    color: '#6748FF',
+    mobile: true
+  },
   WAN_WALLET: {
     connector: wanwallet,
     name: 'WanWallet',
